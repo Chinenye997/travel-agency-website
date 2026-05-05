@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*================ Hero section about ==================*/
+.hero {
+    width: 100%;
+    min-height: calc(80vh - 4.5rem);
+    background-image: url("../images/about/Hero\ about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/*========= Dark overlay on hero background ============*/
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(1, 10, 70,0.5);
+}
+
+/*================ Hero main heading ============*/
+.hero h1 {
+    color: #f6f6f6;
+    z-index: 3;
+    text-align: center;
+    font-size: 5.5rem;
+}
+
+/*=============== Hero p ===================*/
+.hero p {
+    z-index: 3;
+    color: #f6f6f6;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 90%;
+    max-width: 35rem;
+}
+
+.about-story{
+    /* margin: 18px ; */
+    padding: 18px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+
+.story2 {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    align-items: center;
+    gap: 10px;
+}
+
+.image img{
+    width: 90%;
+    border-radius: 30px;
+}
+
+.story2 p{
+    font-size: 20px;
+    margin-bottom: 8px;
+    width: 70%;
+}
+
+.about-story h2{
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+.mission{
+   width: 100%;
+   min-height: calc(90vh - 4.5rem); 
+   background-image: url(../images/about/Hero\ about.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 1.5rem;
+   border-radius: 30px;
+   margin: 4rem 0;
+}
+
+.mission h2 {
+    color: #f6f6f6;
+    z-index: 3;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-left: 45rem;
+}
+
+.mission p {
+    z-index: 3;
+    color: #f6f6f6;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 45rem;
+    width: 90%;
+    max-width: 35rem;
+}
+
+/*=========== WHY CHOOSE US =============*/
+.why-us{
+    /* margin: 2rem 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgb(208, 226, 208);
+    border: 12px;
+}
+
+.feature-content{
+    width: 90%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.why-us h1{
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 1rem 0;
+    padding: 20px;
+}
+
+.feature-content article{
+    background-color: white;
+    display: grid;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+.feature-content h3,
+.feature-content p{
+    color: black;
+}
+
+.feature-content h3{
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.feature-content p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    opacity: 80%;
+    margin: 2rem 2rem;
+}
+
