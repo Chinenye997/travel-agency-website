@@ -52,7 +52,7 @@ ul li{
     background-color:rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .packages-heading{
