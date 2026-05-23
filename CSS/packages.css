@@ -6,6 +6,16 @@
 ul li{
     list-style-type: none;
 }
+
+/* Begiining of global style.css conflict resolution */
+
+.cards-container ul {
+    display: block;
+    padding: 0;
+}
+
+/*End of global style.css conflict resolution */
+
 .hero{
     width:100%;
     min-height:60vh;
@@ -42,7 +52,7 @@ ul li{
     background-color:rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .packages-heading{
