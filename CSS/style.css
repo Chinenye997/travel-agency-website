@@ -1,104 +1,231 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*=======================
+      GOOGLE FONTS
+=========================*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*========================
+   RESET To ALL PAGES
+==========================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+/*=============================
+          GLOBAL STYLES
+===============================*/
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    background-color: hsl(36, 100%, 98%);
-  font-family: 'Open sans' , 'Roboto', 'Lato' ;
+body {
+  background-color: hsl(36, 100%, 98%);
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
-ul li{
+img {
+  width: 100%;
+  display: block;
+}
+
+ul li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-header{
+/*==========================
+         NAVBAR
+===========================*/
+header {
   width: 100%;
-  height: 4rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background-color: rgb(5, 75, 51);
   position: sticky;
   top: 0;
-  z-index: 50;
-  font-family: 'Montserrat' , 'Poppins' ,'Raleway'; 
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-header nav{
+header nav {
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 1rem 5%;
 }
 
- ul{
+/*====== LOGO =======*/
+.logo {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*====== NAV LINKS =======*/
+nav ul {
   display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav ul li a {
+  color: #f6f6f6;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+
+nav ul li a:hover {
+  color: rgb(243, 198, 83);
+}
+
+/*==================
+    GLOBAL BUTTON
+====================*/
+button {
+  background-color: rgb(5, 75, 51);
+  color: #f6f6f6;
+  border: none;
+  border-radius: 15px;
+  padding: 0.9rem 1.5rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/*====================
+        FOOTER
+======================*/
+footer {
+  background-color: rgb(58, 48, 48);
+  color: #f6f6f6;
+  padding: 2rem 5% 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/*====== FOOTER LOGO =====*/
+.foot h3 {
+  font-size: 2rem;
+  color: rgb(243, 198, 83);
+}
+
+/*====== FOOTER TEXT ======*/
+.foot p {
+  max-width: 500px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*===============
+  SOCIAL ICONS
+=================*/
+.socials {
+  display: flex;
+  align-items: center;
   gap: 1rem;
-  padding-right: 6rem;
 }
 
-a:hover{
-    background-color: rgb(243, 198, 83);
-    padding: 9px;
-    border-radius: 6px;
-    color: rgb(5, 75, 51);
+/*==== ICON BOX =====*/
+.socials div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 
-li :hover{
-    background-color: rgb(243, 198, 83);
-    color: rgb(5, 75, 51);
+/* ICON HOVER */
+.socials div:hover {
+  background-color: rgb(243, 198, 83);
+  color: rgb(5, 75, 51);
+  transform: translateY(-3px);
 }
- a {
-    color: #f6f6f6;
-    font-size: 0,9rem;
-    transition: 0.4s ease-in-out;
+
+/*FOOTER BORDER*/
+.border-2 {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*== COPYRIGHT ==*/
+.reserved {
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+/*=======================
+    RESPONSIVE DESIGN
+=========================*/
+
+/*======= TABLET ======*/
+@media (max-width: 992px) {
+  nav ul {
+    gap: 1rem;
+  }
+}
+
+/*========= MOBILE =========*/
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    gap: 1rem;
   }
 
-  @media(max-width: 768px){
-    ul{
-        display: grid;
-        position: relative;
-        width: 30%;
-    }
-
-    header{
-        height: 30vh;
-    }
-
-    nav{
-        display: flex;
-        justify-content: space-between;
-    }
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  @media(max-width: 1024px){
-
-     ul{
-        display: grid;
-        position: relative;
-        width: 30%;
-    }
-
-    header{
-        height: 30vh;
-    }
-
-    nav{
-        display: flex;
-        justify-content: space-between;
-    }
+  .logo {
+    font-size: 1.5rem;
   }
 
+  /* 
+  Stack footer items on mobile */
+
+  .foot {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .foot p {
+    max-width: 100%;
+  }
+
+  .socials {
+    justify-content: flex-start;
+  }
+
+  .reserved {
+    text-align: left;
+  }
+}
