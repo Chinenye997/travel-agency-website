@@ -81,7 +81,7 @@ body {
 .price {
     margin: 15px 0;
     font-weight: bold;
-    color: #0077ff;
+    color: rgb(5, 75, 51);
 }
 
 .card:hover {
