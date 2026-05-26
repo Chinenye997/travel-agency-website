@@ -30,9 +30,11 @@
 /*====== HERO HEADING =======*/
 .hero h1 {
   color: #f6f6f6;
-  z-index: 3;
+  z-index: 2;
   text-align: center;
-  font-size: clamp(2.5rem, 8vw, 5rem);
+font-size: 3rem;
+
+
 }
 
 /*====== HERO TEXT =======*/
