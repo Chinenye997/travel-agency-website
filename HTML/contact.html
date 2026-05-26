@@ -4,41 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Enugu Air Travels</title>
+    
+    </script>
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/contact.css Us.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
-
 <body>
-    <header>
-        <nav>
+
+<header>
+  <nav>
      <div class="logo">
+      logo
      </div>
 
+     <ul class="desktop-nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./destinations.html">Destination</a></li>
+        <li><a href="./packages.html">Packages</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+
+  </nav>
+</header>
+
+  
 <!-- HERO SECTION -->
-  </nav>
-      <h1>Enugu Air Travels</h1>
-      <div>
-        <a href="#" class="hover:underline">Home</a>
-        <a href="#" class="hover:underline">Destinations</a>
-        <a href="#" class="hover:underline">Packages</a>
-        <a href="#" class="hover:underline">About</a>
-        <a href="Contact Us.html" class="font-bold underline">Contact</a>
-      </div>
-  </nav>
-
-    <main>
-        <!-- HERO SECTION -->
-        <section class="hero">
-            <h1>Contact Us</h1>
-            <div class="overlay"></div>
-        </section>
-
-  <div>
-    <h1>Get In Touch With Us</h1>
-    <p>We are here to assist you with any questions or concerns</p>
+<section class="hero">
+  <div class="hero-overlay">
+  <h1>Contact Us</h1>
+  <p>We are here to assist you with any questions or concerns</p>
   </div>
+</section>
 
-
+  <main></main>
       <!-- CONTACT FORM -->
       <div>
         <h2>Send Us a Message</h2>
@@ -75,7 +82,7 @@
             <textarea placeholder="Write your message here..."></textarea>
           </div>
 
-          <button type="submit button">
+          <button type="submit button center align">
             Send Message
           </button>
         </form>
@@ -85,47 +92,64 @@
       <div>
         <h2>Contact Information</h2>
         
-        <div><icon>📞</icon>
-              <p> Call our Hotline Phone number </p>
-              <p>+234 289089011</p>
+        <div><icon>📞</icon> <h3>Call our Hotline</h3>
               <p>+234 7012456789</p>
             </div>
           </div>
 
-          <div><icon>📧</icon>
-              <p>Our Email</p>
+          <div><icon>📧</icon> <h3>Our Email</h3>
               <p>info@enuguairtravel.com</p>
-              <p>flightbookings@enuguairtravel.com</p>
             </div>
           </div>
 
-          <div><icon>🏢</icon>
-              <p>Head Office Address</p>
+          <div><icon>🏢</icon> <h3>Head Office Address</h3>
               <p>23 Upper Chime Avenue,New Haven,<br>
                  Enugu state, Nigeria</p>
             </div>
           </div>
 
-          <div><icon>⏰</icon>
-              <p>Customer Support Hours</p>
+          <div><icon>⏰</icon> <h3>Customer Support Hours</h3>
               <p>Monday - Sunday: 6:00 AM - 09:00 PM</p>
         </div>
 
         <!-- Google Map Placeholder-->
-        <div>
-          <h3>Find Us Here</h3>
-            📍 Google Map will be embedded here
-          </div>
-  </div>
+        <div id="map">
+          <h3>Find Us on the Map</h3>
+          <p>Our office is located in the heart of Enugu, easily accessible by public transport and car.</p>
+    <gmp-mapcenter="40.12150192260742,-100.45039367675781" zoom="4" map-id="DEMO_MAP_ID">
+      <gmp-advanced-marker position="40.12150192260742,-100.45039367675781" title="My location"></gmp-advanced-marker>
+    </gmp-map>
+  </body>
+</html>>
 
-  <!-- FOOTER-->
-  <footer>
-    <div>
-      <p>Logo</p>
-      <p>.....your reliable travel agency in Nigeria</p>
-      <p>© 2026 EnuguAir Travel. All Rights Reserved.</p>
-    </div>
-  </footer>
-    
-</body>
+
+  </main>
+
+ <!-- Footer -->
+    <footer>
+      <div class="foot">
+        <h3>EnuguAir-Travels</h3>
+        <p>
+          Our Agency is always out to support travelers in making the right
+          decisions about their desired destination.
+        </p>
+      </div>
+
+      <div class="socials">
+        <div><i class="fa-brands fa-facebook"></i></div>
+        <div><i class="fa-brands fa-x-twitter"></i></div>
+        <div><i class="fa-brands fa-linkedin"></i></div>
+        <div><i class="fa-brands fa-instagram"></i></div>
+      </div>
+
+      <div class="border-2"></div>
+
+      <div class="reserved">
+        &copy; EnuguAir Travels. 2026 All right reserved.
+      </div>
+    </footer>
+  </body>
 </html>
+
+
+
