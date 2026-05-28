@@ -1,0 +1,70 @@
+ /* goolge font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+
+/* HERO SECTION*/
+.hero {
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("../images/contact/contact.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-overlay h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero-overlay p {
+    color: #ddd;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/*====== HERO HEADING =======*/
+.hero h1 {
+  color: #f6f6f6;
+  z-index: 3;
+  text-align: center;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+}
+
+/*====== HERO TEXT =======*/
+.hero p {
+  z-index: 3;
+  color: #f6f6f6;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 90%;
+  max-width: 35rem;
+}
+/*======= HOVER EFFECT =======*/
+.member:hover {
+  transform: translateY(-5px);
+}
+
+GOOGLE MAP API
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+gmp-map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
