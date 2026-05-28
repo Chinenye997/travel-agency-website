@@ -221,8 +221,10 @@ MISSION SECTION
 /*======= MEMBER IMAGE ======*/
 .member img {
   width: 100%;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
+  object-position: top;
+  display: block;
 }
 
 /*====== MEMBER TEXT =========*/
@@ -294,6 +296,16 @@ MISSION SECTION
        RESPONSIVE DESIGN
 ==================================*/
 
+/*=============== LARGE LAPTOPS============*/
+@media (min-width: 1200px){
+
+  .member img{
+
+    height: 320px;
+  }
+}
+
+
 /*====== TABLET ========*/
 @media (max-width: 992px) {
   .story2 {
@@ -309,6 +321,10 @@ MISSION SECTION
   .mission h2,
   .mission p {
     max-width: 100%;
+  }
+
+  .member img {
+    height: 300px;
   }
 }
 
@@ -333,6 +349,10 @@ MISSION SECTION
 
   .stats-container h3 {
     font-size: 2.2rem;
+  }
+
+  .member img{
+    height: 280px;
   }
 }
 
