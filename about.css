@@ -1,0 +1,346 @@
+/*======================
+        HERO SECTION
+========================*/
+.hero {
+  width: 100%;
+  min-height: calc(80vh - 4.5rem);
+  background-image: url("../images/about/Hero about.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+/*====== HERO OVERLAY =======*/
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*====== HERO HEADING =======*/
+.hero h1 {
+  color: #f6f6f6;
+  z-index: 3;
+  text-align: center;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+}
+
+/*====== HERO TEXT =======*/
+.hero p {
+  z-index: 3;
+  color: #f6f6f6;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 90%;
+  max-width: 35rem;
+}
+
+/*====================
+   ABOUT STORY SECTION
+=====================*/
+.about-story {
+  background-color: rgb(253, 236, 199);
+  padding: 5rem 5%;
+}
+
+/*==== SECTION HEADING ======*/
+.about-story h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: rgb(5, 75, 51);
+}
+
+/*=============
+   STORY GRID
+==============*/
+.story2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3rem;
+}
+
+/*====== STORY IMAGE ======*/
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/*===== STORY TEXT ========*/
+.story1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.story2 p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+
+/*=================
+MISSION SECTION
+===================*/
+.mission {
+  width: 100%;
+  min-height: 70vh;
+  background-image: url("../images/about/Hero about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  border-radius: 20px;
+  margin-top: 5rem;
+  padding: 3rem;
+}
+
+/*===== MISSION CONTENT =======*/
+.mission h2,
+.mission p {
+  z-index: 3;
+  color: #f6f6f6;
+  max-width: 40rem;
+}
+
+.mission h2 {
+  font-size: 2.5rem;
+}
+
+.mission p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/*====================
+    WHY CHOOSE US
+======================*/
+.why-us {
+  background-color: rgb(253, 236, 199);
+  padding: 5rem 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/*====== SECTION TITLE =========*/
+.why-us h1 {
+  font-size: 2.5rem;
+  color: rgb(5, 75, 51);
+}
+
+/*===================
+     FEATURE GRID
+====================*/
+.feature-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/*===== FEATURE CARD =======*/
+.feature-content article {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+/*===== HOVER EFFECT ==========*/
+.feature-content article:hover {
+  transform: translateY(-5px);
+}
+
+/*====== FEATURE TEXT =======*/
+.feature-content h3 {
+  color: rgb(5, 75, 51);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-content p {
+  color: #555;
+  line-height: 1.7;
+}
+
+/*=====================
+     TEAM SECTION
+=======================*/
+.team {
+  padding: 5rem 5%;
+}
+
+/*===== TEAM TITLE ======*/
+.team h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: rgb(5, 75, 51);
+}
+
+/*==== TEAM GRID =====*/
+.team > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+/*====== TEAM CARD =====*/
+.member {
+  background-color: rgb(253, 236, 199);
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+/*======= HOVER EFFECT =======*/
+.member:hover {
+  transform: translateY(-5px);
+}
+
+/*======= MEMBER IMAGE ======*/
+.member img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/*====== MEMBER TEXT =========*/
+.member h3 {
+  margin-top: 1rem;
+  color: rgb(5, 75, 51);
+}
+
+.member p {
+  padding: 0 1rem 1rem;
+  color: #555;
+}
+
+/*================
+  STATS SECTION
+=================*/
+.stats {
+  background-color: rgb(5, 75, 51);
+  color: white;
+  padding: 5rem 5%;
+  text-align: center;
+}
+
+/*===== STATS TITLE =======*/
+.stats h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+/*======= STATS GRID ========*/
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+/*======= STATS NUMBER ======*/
+.stats-container h3 {
+  font-size: 3rem;
+}
+
+/*======================
+    AWARDS SECTION
+=======================*/
+.awards {
+  padding: 5rem 5%;
+
+  text-align: center;
+}
+
+
+/*===== AWARDS TITLE ========*/
+.awards h2 {
+  font-size: 2.5rem;
+  color: rgb(5, 75, 51);
+  margin-bottom: 1rem;
+}
+
+
+/*======= AWARDS TEXT =========*/
+.awards p {
+  max-width: 700px;
+  margin: auto;
+  color: #555;
+  line-height: 1.8;
+}
+
+/*==============================
+       RESPONSIVE DESIGN
+==================================*/
+
+/*====== TABLET ========*/
+@media (max-width: 992px) {
+  .story2 {
+    grid-template-columns: 1fr;
+  }
+
+  .mission {
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .mission h2,
+  .mission p {
+    max-width: 100%;
+  }
+}
+
+/*====== MOBILE =========*/
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .about-story h2,
+  .mission h2,
+  .why-us h1,
+  .team h2,
+  .stats h2,
+  .awards h2 {
+    font-size: 2rem;
+  }
+
+  .stats-container h3 {
+    font-size: 2.2rem;
+  }
+}
+
+/*======= SMALL MOBILE ========*/
+@media (max-width: 500px) {
+  .mission {
+    padding: 2rem;
+  }
+
+  .member img {
+    height: 250px;
+  }
+}
