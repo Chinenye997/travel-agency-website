@@ -1,0 +1,242 @@
+ENUGUAIR TRAVELS WEBSITE DOCUMENTATION
+CSS GROUP PROJECT – STREAM 2
+
+1.0 PROJECT OVERVIEW
+The EnuguAir Travels Website is a responsive multi-page travel agency website created to encourage users to explore travel destinations and book vacation experiences. The website was developed using HTML5 and CSS3.
+The project focuses on responsive design, modern layouts, consistent styling, and user-friendly navigation across all pages.
+
+2.0 TEAM MEMBERS AND RESPONSIBILITIES
+2.1 Home Page (index.html)
+Developed By:
+Ifeanyi Udeigwe
+2.2 Destinations Page (destinations.html)
+Developed By:
+Nzubechukwu Egwu (Zubby)
+2.3 Packages Page (packages.html)
+Developed By:
+Kambilinachukwu Udeani
+2.4 About Page (about.html)
+Developed By:
+Gift Chinenye Edeh
+2.5 Contact Page (contact.html)
+Developed By:
+Chukwudi Ezennia
+Gift Chinenye Edeh
+
+3.0 TECHNOLOGIES USED
+3.1 HTML5
+Used for structuring the web pages.
+3.2 CSS3
+Used for styling and responsiveness.
+3.3 Google Fonts
+Used for typography styling.
+3.4 Font Awesome
+Used for icons and social media icons.
+3.5 Google Maps Embed
+Used in the Contact page to display office location.
+
+4.0 WEBSITE STRUCTURE
+4.1 Global Styling (style.css)
+4.1.1 Navigation Bar
+Responsive navigation bar
+Consistent across all pages
+Contains:
+Home
+Destinations
+Packages
+About
+Contact
+4.1.2 Logo Section
+Displays EnuguAir Travels branding.
+4.1.3 Footer Section
+Shared across all pages
+Contains:
+Agency information
+Social media icons
+Copyright text
+4.1.4 Typography
+Headings:
+Poppins
+Montserrat
+Raleway
+Body Text:
+Open Sans
+Roboto
+
+5.0 HOME PAGE (index.html)
+5.1 Navigation Bar
+5.1.1 Logo
+Displays EnuguAir Travels logo.
+5.1.2 Navigation Links
+Home
+Destinations
+Packages
+About
+Contact
+
+5.2 Hero Section
+5.2.1 Hero Background Image
+Large travel-themed background image.
+5.2.2 Hero Heading
+“Find The Perfect Place To Go”
+5.2.3 Hero Paragraph
+Travel inspiration text.
+5.2.4 Call-To-Action Button
+Flight Booking button.
+
+5.3 About Agency Section
+5.3.1 Agency Introduction
+Brief introduction about EnuguAir Travels.
+5.3.2 Agency Story
+Information about company goals and mission.
+5.3.3 Agency Image
+Travel lounge image.
+
+5.4 Featured Destinations Section
+5.4.1 Destination Cards
+Taj Mahal
+Dubai
+Statue of Liberty
+5.4.2 Explore More Button
+Redirects users to more destinations.
+
+5.5 Why Choose Us Section
+5.5.1 Financial Protection
+5.5.2 Time And Stress Reduction
+5.5.3 Travel Experience
+5.5.4 Local Knowledge
+
+5.6 Testimonials Section
+5.6.1 Customer Reviews
+Testimonials from travelers.
+5.6.2 Traveler Images
+Circular traveler profile images.
+
+5.7 Footer Section
+5.7.1 Social Media Icons
+Facebook
+Twitter/X
+LinkedIn
+Instagram
+5.7.2 Copyright Information
+
+6.0 DESTINATIONS PAGE (destinations.html)
+6.1 Hero Section
+Destination-themed background image.
+6.2 Destination Cards
+6.2.1 Destination Images
+6.2.2 Destination Names
+6.2.3 Country Names
+6.2.4 Destination Description
+6.2.5 Pricing Information
+6.2.6 Learn More Buttons
+
+6.3 Responsive Grid Layout
+6.3.1 Desktop View
+Three-column layout.
+6.3.2 Tablet View
+Two-column layout.
+6.3.3 Mobile View
+Single-column layout.
+
+7.0 PACKAGES PAGE (packages.html)
+7.1 Hero Section
+Travel package background image.
+7.2 Package Cards
+7.2.1 Budget Package
+7.2.2 Standard Package
+7.2.3 Premium Package
+7.2.4 Luxury Package
+
+7.3 Package Information
+7.3.1 Package Price
+7.3.2 Package Duration
+7.3.3 Included Features
+7.3.4 Book Now Button
+
+7.4 Featured Package
+Highlighted “Most Popular” package.
+
+8.0 ABOUT PAGE (about.html)
+8.1 Hero Section
+8.1.1 Hero Background Image
+8.1.2 Hero Heading
+8.1.3 Hero Overlay
+
+8.2 Our Story Section
+8.2.1 Company History
+8.2.2 Mission Statement
+8.2.3 Company Image
+
+8.3 Core Values Section
+8.3.1 Excellence
+8.3.2 Reliability
+8.3.3 Leadership
+8.3.4 Trust And Loyalty
+8.3.5 Safety
+8.3.6 Regional Integration
+
+8.4 Team Section
+8.4.1 Team Member Cards
+8.4.2 Team Member Images
+8.4.3 Team Member Roles
+
+8.5 Statistics Section
+8.5.1 Happy Travelers
+8.5.2 Destinations
+8.5.3 Years Of Experience
+
+8.6 Awards Section
+Awards and certifications information.
+
+9.0 CONTACT PAGE (contact.html)
+9.1 Hero Section
+9.1.1 Contact Background Image
+9.1.2 Contact Heading
+9.1.3 Contact Description
+
+9.2 Contact Form
+9.2.1 Full Name Input
+9.2.2 Email Input
+9.2.3 Phone Number Input
+9.2.4 Subject Dropdown
+9.2.5 Message Textarea
+9.2.6 Submit Button
+
+9.3 Contact Information
+9.3.1 Phone Number
+9.3.2 Email Address
+9.3.3 Office Address
+9.3.4 Business Hours
+
+9.4 Google Maps Embed
+Embedded Google Maps location.
+
+10.0 RESPONSIVENESS
+10.1 Mobile Responsiveness
+Layout adjustments for small screens.
+10.2 Tablet Responsiveness
+Flexible grid and flex layouts.
+10.3 Desktop Responsiveness
+Multi-column layouts and wider spacing.
+
+11.0 CSS FEATURES IMPLEMENTED
+11.1 Flexbox Layouts
+11.2 CSS Grid Layouts
+11.3 Hover Effects
+11.4 Smooth Transitions
+11.5 Responsive Images
+11.6 Sticky Navigation Bar
+11.7 Overlay Effects
+
+12.0 PROJECT CHALLENGES
+12.1 Responsive Image Handling
+12.2 Layout Consistency
+12.3 Navigation Responsiveness
+12.4 Hero Section Overlay Issues
+12.5 Footer Arrangement
+
+13.0 CONCLUSION
+The EnuguAir Travels Website successfully demonstrates the use of HTML5 and CSS3 in creating a responsive travel agency website. The project improved teamwork, responsive web design skills, layout structuring, and CSS styling techniques.
+The website provides users with a modern and engaging travel experience across different devices.
+ 
