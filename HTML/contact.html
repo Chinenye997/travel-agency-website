@@ -1,14 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Enugu Air Travels</title>
-    
-    </script>
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/contact.css">
-    <!-- font awesome cdn -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contact Us - EnuguAir Travels</title>
+
+    <!-- GLOBAL CSS -->
+    <link rel="stylesheet" href="../CSS/style.css" />
+
+    <!-- CONTACT PAGE CSS -->
+    <link rel="stylesheet" href="../CSS/contact.css" />
+
+    <!-- FONT AWESOME CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -16,116 +20,230 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-</head>
-<body>
+  </head>
+  <body>
+    <!--=============================
+                    NAVBAR
+           ==========================-->
+    <header>
+      <nav>
+        <!-- LOGO -->
+        <div class="logo">EnuguAir-Travels</div>
+        <!-- NAV LINKS -->
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./destinations.html">Destination</a></li>
+          <li><a href="./packages.html">Packages</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<header>
-  <nav>
-     <div class="logo">
-      logo
-     </div>
+    <!--===============================
+                    HERO SECTION
+        ================================-->
+    <section class="hero">
+      <section class="hero">
+        <div class="hero-overlay"></div>
 
-     <ul class="desktop-nav-links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./destinations.html">Destination</a></li>
-        <li><a href="./packages.html">Packages</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
+        <div class="hero-content">
+          <h1>Contact Us</h1>
+          <p>We are here to assist you with any questions or concerns</p>
+        </div>
+      </section>
+    </section>
 
-  </nav>
-</header>
+    <!--===============================
+                CONTACT SECTION
+     =======================================-->
+    <main class="contact-section">
+      <!--================================
+                    CONTACT FORM
+            ==================================-->
+      <section class="contact-form">
+        <h2>Plan Your Journey</h2>
 
-  
-<!-- HERO SECTION -->
-<section class="hero">
-  <div class="hero-overlay">
-  <h1>Contact Us</h1>
-  <p>We are here to assist you with any questions or concerns</p>
-  </div>
-</section>
-
-  <main></main>
-      <!-- CONTACT FORM -->
-      <div>
-        <h2>Send Us a Message</h2>
-        
         <form>
-          <div>
-            <label>Enter Full Name</label>
-            <input type="text" placeholder="Surname First name">
+          <!-- FULL NAME -->
+          <div class="form-group">
+            <label for="fullname"> Full Name </label>
+
+            <input
+              type="text"
+              id="fullname"
+              placeholder="Enter your full name"
+            />
           </div>
 
-          <div>
-            <label>Email Address</label>
-            <input type="email" placeholder="you@example.com">
+          <!-- EMAIL -->
+          <div class="form-group">
+            <label for="email"> Email Address </label>
+
+            <input type="email" id="email" placeholder="you@example.com" />
           </div>
 
-          <div>
-            <label>Phone Number</label>
-            <input type="tel" placeholder="+234 801 234 5678">
+          <!-- PHONE -->
+          <div class="form-group">
+            <label for="phone"> Phone Number </label>
+
+            <input type="tel" id="phone" placeholder="+234 801 234 5678" />
           </div>
 
-          <div>
-            <label>Subject</label>
-            <select>
-              <option>General Inquiry</option>
-              <option>Flight Booking Support</option>
-              <option>Complaint</option>             
-              <option>Feedback and Suggestions</option>
-              <option>Partner with Us</option>
+          <!-- DESTINATION -->
+          <div class="form-group">
+            <label for="destination"> Preferred Destination </label>
+
+            <select id="destination">
+              <option>Select Destination</option>
+
+              <option>Dubai</option>
+
+              <option>Paris</option>
+
+              <option>Bali</option>
+
+              <option>Tokyo</option>
+
+              <option>Cape Town</option>
             </select>
           </div>
 
-          <div>
-            <label>Your Message</label>
-            <textarea placeholder="Write your message here..."></textarea>
+          <!-- TRAVEL DATE -->
+          <div class="form-group">
+            <label for="date"> Travel Date </label>
+
+            <input type="date" id="date" />
           </div>
 
-          <button type="submit button center align">
-            Send Message
-          </button>
+          <!-- TRAVELERS -->
+          <div class="form-group">
+            <label for="travelers"> Number of Travelers </label>
+
+            <input
+              type="number"
+              id="travelers"
+              placeholder="Enter number of travelers"
+            />
+          </div>
+
+          <!-- BUDGET -->
+          <div class="form-group">
+            <label for="budget"> Budget Range </label>
+
+            <select id="budget">
+              <option>Select Budget</option>
+
+              <option>
+                <span class="price-value">&#8358;100,000 - &#8358;150,000</span> 
+              </option>
+
+              <option>
+                <span class="price-value">&#8358;200,000 - &#8358;300,000</span> 
+              </option>
+
+              <option>
+                <span class="price-value">&#8358;250,000 - &#8358;400,000</span> 
+              </option>
+
+              <option>
+                <span class="price-value">&#8358;500,000+</span> 
+              </option>
+            </select>
+          </div>
+
+          <!-- MESSAGE -->
+          <div class="form-group">
+            <label for="message"> Special Requests </label>
+
+            <textarea
+              id="message"
+              placeholder="Write your message here..."
+            ></textarea>
+          </div>
+
+          <!-- BUTTON -->
+          <button type="submit">Send Message</button>
         </form>
-      </div>
+      </section>
 
-      <!-- CONTACT INFORMATION -->
-      <div>
+      <!--====================================
+                CONTACT INFORMATION
+        ====================================-->
+      <section class="contact-info">
         <h2>Contact Information</h2>
-        
-        <div><icon>📞</icon> <h3>Call our Hotline</h3>
-              <p>+234 7012456789</p>
-            </div>
-          </div>
 
-          <div><icon>📧</icon> <h3>Our Email</h3>
-              <p>info@enuguairtravel.com</p>
-            </div>
-          </div>
+        <!-- PHONE -->
+        <div class="info-box">
+          <i class="fa-solid fa-phone"></i>
 
-          <div><icon>🏢</icon> <h3>Head Office Address</h3>
-              <p>23 Upper Chime Avenue,New Haven,<br>
-                 Enugu state, Nigeria</p>
-            </div>
-          </div>
+          <div>
+            <h3>Call Our Hotline</h3>
 
-          <div><icon>⏰</icon> <h3>Customer Support Hours</h3>
-              <p>Monday - Sunday: 6:00 AM - 09:00 PM</p>
+            <p>+234 7012456789</p>
+          </div>
         </div>
 
-        <!-- Google Map Placeholder-->
-        <div id="map">
-          <h3>Find Us on the Map</h3>
-          <p>Our office is located in the heart of Enugu, easily accessible by public transport and car.</p>
-    <gmp-mapcenter="40.12150192260742,-100.45039367675781" zoom="4" map-id="DEMO_MAP_ID">
-      <gmp-advanced-marker position="40.12150192260742,-100.45039367675781" title="My location"></gmp-advanced-marker>
-    </gmp-map>
-  </body>
-</html>>
+        <!-- EMAIL -->
+        <div class="info-box">
+          <i class="fa-solid fa-envelope"></i>
 
+          <div>
+            <h3>Our Email</h3>
 
-  </main>
+            <p>info@enuguairtravel.com</p>
+          </div>
+        </div>
 
- <!-- Footer -->
+        <!-- ADDRESS -->
+        <div class="info-box">
+          <i class="fa-solid fa-location-dot"></i>
+
+          <div>
+            <h3>Head Office Address</h3>
+
+            <p>23 Upper Chime Avenue, New Haven, Enugu State, Nigeria</p>
+          </div>
+        </div>
+
+        <!-- HOURS -->
+        <div class="info-box">
+          <i class="fa-solid fa-clock"></i>
+
+          <div>
+            <h3>Customer Support Hours</h3>
+
+            <p>Monday - Sunday: 6:00 AM - 09:00 PM</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============================
+          GOOGLE MAP
+       ==========================-->
+    <section class="map-section">
+      <h2>Find Us On The Map</h2>
+
+      <p>Our office is located in the heart of Enugu State, Nigeria.</p>
+
+      <!-- GOOGLE MAP EMBED -->
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d126861.2820743996!2d7.495419962121502!3d6.468989676159809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEnugu%20State%20Nigeria%2023%20Upper%20Chime%20Avenue%2C%20Enugu!5e0!3m2!1sen!2sng!4v1780070161899!5m2!1sen!2sng"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!--========================
+                    FOOTER
+           =============================-->
+    <!-- Footer -->
     <footer>
       <div class="foot">
         <h3>EnuguAir-Travels</h3>
@@ -145,11 +263,8 @@
       <div class="border-2"></div>
 
       <div class="reserved">
-        &copy; EnuguAir Travels. 2026 All right reserved.
+        &copy; EnuguAir-Travels. 2026 All right reserved.
       </div>
     </footer>
   </body>
 </html>
-
-
-

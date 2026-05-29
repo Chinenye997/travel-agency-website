@@ -1,8 +1,8 @@
 /*=======================
       GOOGLE FONTS
 =========================*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /*========================
    RESET To ALL PAGES
 ==========================*/
@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: hsl(36, 100%, 98%);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "Roboto", sans-serif;
   overflow-x: hidden;
 }
 

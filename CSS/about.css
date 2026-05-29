@@ -3,7 +3,7 @@
 ========================*/
 .hero {
   width: 100%;
-  min-height: calc(80vh - 4.5rem);
+  min-height: calc(90vh - 4.5rem);
   background-image: url("../images/about/Hero about.png");
   background-size: cover;
   background-repeat: no-repeat;
