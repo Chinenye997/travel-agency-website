@@ -1,5 +1,6 @@
 ENUGUAIR TRAVELS WEBSITE DOCUMENTATION
 CSS GROUP PROJECT – STREAM 2
+GROUP NUMBER 15
 
 1.0 PROJECT OVERVIEW
 The EnuguAir Travels Website is a responsive multi-page travel agency website created to encourage users to explore travel destinations and book vacation experiences. The website was developed using HTML5 and CSS3.
@@ -9,15 +10,19 @@ The project focuses on responsive design, modern layouts, consistent styling, an
 2.1 Home Page (index.html)
 Developed By:
 Ifeanyi Udeigwe
+
 2.2 Destinations Page (destinations.html)
 Developed By:
 Nzubechukwu Egwu (Zubby)
+
 2.3 Packages Page (packages.html)
 Developed By:
 Kambilinachukwu Udeani
+
 2.4 About Page (about.html)
 Developed By:
 Gift Chinenye Edeh
+
 2.5 Contact Page (contact.html)
 Developed By:
 Chukwudi Ezennia
@@ -32,11 +37,13 @@ Used for styling and responsiveness.
 Used for typography styling.
 3.4 Font Awesome
 Used for icons and social media icons.
+
 3.5 Google Maps Embed
 Used in the Contact page to display office location.
 
 4.0 WEBSITE STRUCTURE
 4.1 Global Styling (style.css)
+
 4.1.1 Navigation Bar
 Responsive navigation bar
 Consistent across all pages
@@ -54,11 +61,8 @@ Contains:
 Agency information
 Social media icons
 Copyright text
+
 4.1.4 Typography
-Headings:
-Poppins
-Montserrat
-Raleway
 Body Text:
 Open Sans
 Roboto
